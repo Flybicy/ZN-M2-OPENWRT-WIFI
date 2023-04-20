@@ -10,6 +10,9 @@
 
 name: cmiot_ax18_plus
 
+permissions:
+  contents: write
+  
 on:
   repository_dispatch:
   workflow_dispatch:
